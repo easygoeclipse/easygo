@@ -1,0 +1,76 @@
+/* inizio header */
+
+.container{
+	
+	width:75%;
+}
+
+ul li:hover{
+	
+	background-color:#0288d1;
+}
+
+.dropdown-content li > a{
+	
+	color:#0288d1;
+}
+
+
+nav ul{
+	
+	width:85%;
+}
+
+nav ul a{
+	
+	padding: 0px 12px;
+}
+nav ul a.white-border-bottom:hover{
+	
+	border-top-style: solid;
+    border-top-color: #ffffff;
+    border-top-width: 0.3em;
+}
+
+nav ul a.c1976d2-border-bottom:hover{
+	
+	border-top-style: solid;
+    border-top-color: #0288d1;
+    border-top-width: 0.3em;
+}
+
+
+
+nav ul li{
+	
+	width:16.65%;
+}
+
+
+nav .dropdown-content {
+    border-radius: 0% 0% 50% 0%;
+}
+
+nav .dropdown-content li:hover{
+	
+	background-color:#eeeeee;
+}
+
+/* fine header */
+
+
+/* inizio catalogo.jsp */
+
+
+div.cart{
+	
+	border:5px solid black;
+}
+
+div.box{
+	
+	border-bottom:2px solid #eeeeee;
+}
+
+/* fine catalogo.jsp */
+

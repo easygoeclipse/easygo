@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+
+	<display-name>Prova Connessione</display-name>
+	  <welcome-file-list>
+	    <welcome-file>index.jsp</welcome-file>
+	  </welcome-file-list>
+	  
+	  
+	  <resource-ref>
+	    <description>Riferimento JNDI ad un data source</description>
+	    <res-ref-name>jdbc/sql11173555</res-ref-name>
+	    <res-type>javax.sql.DataSource</res-type>
+	    <res-auth>Container</res-auth>
+	  </resource-ref>
+	  
+	  
+  <servlet>
+    <servlet-name>ViaggioControl</servlet-name>
+    <servlet-class>it.Control.ViaggioControl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViaggioControl</servlet-name>
+    <url-pattern>/ViaggioControl</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
